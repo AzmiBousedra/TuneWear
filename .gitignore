@@ -42,3 +42,6 @@ firmware/**/.pio/
 firmware/**/managed_components/
 firmware/**/sdkconfig.old
 firmware/**/compile_commands.json
+
+# firmware credentials (template: firmware/TuneWear/secrets.example.h)
+firmware/**/secrets.h

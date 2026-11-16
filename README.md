@@ -17,7 +17,7 @@ A wearable clip with an ESP32-S3, a 2.13" e-paper display and USB-C LiPo chargin
 | Folder | Contents |
 |---|---|
 | [`hardware/`](hardware) | The PCB as tscircuit code: circuit, imported parts, 3D assembly preview. See [hardware/README.md](hardware/README.md) for commands, block diagram and verification status. |
-| [`firmware/`](firmware) | ESP32-S3 firmware (coming soon), plus the board's pin map |
+| [`firmware/`](firmware) | Arduino sketch: shows your Last.fm now-playing on the e-paper, with an on/off switch in the Blynk app. Setup steps and pin map are in its README. |
 | [`docs/`](docs) | Schematic ([SVG](docs/schematic.svg), [PDF](docs/schematic.pdf)) and the renders used in this README |
 
 ## Hardware at a glance
