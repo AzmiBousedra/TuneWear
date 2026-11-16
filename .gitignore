@@ -1,0 +1,44 @@
+# ---------- OS / editors ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------- secrets ----------
+.env
+.env.*
+
+# ---------- hardware/ (tscircuit) ----------
+node_modules/
+dist/
+build/
+.tscircuit/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# check artifacts and fab/3D/KiCad exports: regenerate with the commands in hardware/README.md
+hardware/checks/
+hardware/exports/
+# AI-agent skill docs installed by `tsci init`
+hardware/.claude/
+hardware/.agents/
+
+# ---------- archive/kicad/ (KiCad) ----------
+*.kicad_prl
+*.lck
+fp-info-cache
+*-backups/
+.history/
+.mcp-backups/
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# ---------- firmware/ (ESP-IDF / PlatformIO / Arduino) ----------
+firmware/**/build/
+firmware/**/.pio/
+firmware/**/managed_components/
+firmware/**/sdkconfig.old
+firmware/**/compile_commands.json
