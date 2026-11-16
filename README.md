@@ -19,7 +19,7 @@ A wearable e-paper badge that shows the song you're listening to, pulled live fr
 [![Last.fm](https://img.shields.io/badge/Last.fm-now%20playing-D51007?style=for-the-badge&logo=lastdotfm&logoColor=white)](#-how-it-works)
 [![68 × 34 mm · 2 layers](https://img.shields.io/badge/68%20%C3%97%2034%20mm-2%20layers-1c1c1e?style=for-the-badge)](#-pcb)
 
-[**Both sides**](#-both-sides) · [**Hardware**](#-hardware) · [**PCB**](#-pcb) · [**Build it**](#%EF%B8%8F-build-it) · [**How it works**](#-how-it-works) · [**Roadmap**](#%EF%B8%8F-roadmap)
+[**Both sides**](#-both-sides) · [**Hardware**](#-hardware) · [**PCB**](#-pcb) · [**Build it**](#%EF%B8%8F-build-it) · [**How it works**](#-how-it-works)
 
 </div>
 
@@ -155,16 +155,3 @@ TuneWear/
 │   └── TuneWear/             # Arduino sketch (+ secrets.example.h)
 └── docs/                     # schematic and renders
 ```
-
-<br />
-
-## 🗺️ Roadmap
-
-- [ ] Order and bring up the first boards
-- [ ] Light sleep between polls; the current rough estimate is about a working day per charge
-- [ ] Battery gauge on screen (the GPIO1 sense is already wired)
-- [ ] Give the USER button a job (e.g. sleep or wake)
-- [ ] Characters beyond ASCII (accents, CJK) on the display
-- [ ] Scrolling for long titles
-- [ ] A side-pressed USER button, so it can be pressed while worn
-- [ ] 3D-printed enclosure
