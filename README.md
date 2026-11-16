@@ -8,14 +8,17 @@ A wearable clip with an ESP32-S3, a 2.13" e-paper display and USB-C LiPo chargin
 |---|---|
 | ![PCB 3D](docs/images/pcb-3d.png) | ![PCB layout](docs/images/pcb-layout.png) |
 
+**Schematic** ([PDF](docs/schematic.pdf)):
+
+![Schematic](docs/schematic.svg)
+
 ## Repository layout
 
 | Folder | Contents |
 |---|---|
 | [`hardware/`](hardware) | The PCB as tscircuit code: circuit, imported parts, 3D assembly preview. See [hardware/README.md](hardware/README.md) for commands, block diagram and verification status. |
 | [`firmware/`](firmware) | ESP32-S3 firmware (coming soon), plus the board's pin map |
-| [`docs/`](docs) | Renders used in this README |
-| [`archive/kicad/`](archive/kicad) | The first KiCad attempt, kept for its schematic |
+| [`docs/`](docs) | Schematic ([SVG](docs/schematic.svg), [PDF](docs/schematic.pdf)) and the renders used in this README |
 
 ## Hardware at a glance
 

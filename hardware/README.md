@@ -70,7 +70,7 @@ Before you order:
 
 ## Verification status
 
-- **Netlist:** matches the original KiCad schematic net-for-net (34/34 nets).
+- **Netlist:** checked net-for-net (34/34 nets) against an earlier ERC-clean KiCad schematic. The schematic is in [`../docs/schematic.svg`](../docs/schematic.svg) and is auto-laid-out by tscircuit.
 - **tscircuit checks:** 0 errors. Placement DRC is clean, nothing is unrouted, and the shorts check passes.
 - **Power rails:** VBUS, VSYS, VBAT, VIN_SW and V3V3 are routed at 0.4 mm. Vias are 0.6/0.3 mm.
 - **KiCad DRC on the export:**
@@ -78,7 +78,7 @@ Before you order:
   - 14 via-to-via spacings between 0.10 and 0.144 mm, which is within JLCPCB's 0.1 mm minimum but tight.
   - The rest is cosmetic: silkscreen, library links, and the pour split into fragments.
 
-## Deviations from the KiCad design (`../archive/kicad`)
+## Deviations from the earlier KiCad design
 
 - **D1–D3:** B5819W replaces MBR0530, which isn't stocked at JLCPCB. Both are SOD-123 Schottkys.
 - **ESP32 footprint:** the 12 unnetted thermal vias in the EasyEDA footprint were removed. They were below fab minimums, and the ground pad still reaches GND through the pour.

@@ -25,7 +25,7 @@ hardware/exports/
 hardware/.claude/
 hardware/.agents/
 
-# ---------- archive/kicad/ (KiCad) ----------
+# ---------- KiCad (exports opened locally) ----------
 *.kicad_prl
 *.lck
 fp-info-cache
